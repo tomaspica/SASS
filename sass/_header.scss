@@ -1,0 +1,10 @@
+// Estilos del header
+
+// Variables
+$color-amarillo: yellow;
+$color-amarillopastel: rgb(255, 255, 132);
+
+header {
+    background-image: linear-gradient( to right ,$color-amarillo, $color-amarillopastel);
+}
+

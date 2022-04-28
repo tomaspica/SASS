@@ -1,0 +1,13 @@
+header {
+  background-image: linear-gradient(to right, yellow, #ffff84); }
+
+main {
+  background-color: #ffff9b; }
+  main .card:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+    box-shadow: 0px 0px 50px black;
+    cursor: pointer; }
+
+footer {
+  background-image: linear-gradient(to right, yellow, #ffff84); }
