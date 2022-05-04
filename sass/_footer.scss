@@ -1,5 +1,5 @@
 // Estilos del Footer
 
 footer {
-    background-image: linear-gradient( to right ,yellow , rgb(255, 255, 132));
+    background-image: linear-gradient( to right , map-get($colores, coloramarillo), map-get($colores, coloramarillopastel))
 }

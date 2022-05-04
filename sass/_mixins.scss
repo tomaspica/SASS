@@ -1,0 +1,7 @@
+@mixin card ($transform, $border, $box-shadow, $cursor) { 
+    transform: $transform;
+    border: $border;
+    box-shadow: $box-shadow;
+    cursor: $cursor; 
+}
+

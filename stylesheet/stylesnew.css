@@ -2,7 +2,7 @@ header {
   background-image: linear-gradient(to right, yellow, #ffff84); }
 
 main {
-  background-color: #ffff9b; }
+  background-color: #ffff84; }
   main .card:hover {
     transform: scale(1.1);
     border: 1px solid white;

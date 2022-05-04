@@ -1,14 +1,8 @@
 // Estilos del Main
 
-// Variables
-$color-amarillopastel:rgb(255, 255, 155);
-
 main{
-    background-color: $color-amarillopastel;
+    background-color: map-get($colores, coloramarillopastel);
     .card:hover {
-        transform: scale(1.1);
-        border: 1px solid white ;
-        box-shadow: 0px 0px 50px black;
-        cursor: pointer;
+        @include card (scale(1.1),  1px solid white, 0px 0px 50px black, pointer)
     } 
 }
